@@ -224,7 +224,7 @@ $3Dmol.GLModel = (function() {
         };
 
         //from atom, return a normalized vector v that is orthogonal and along which
-        //it is appropraite to draw multiple bonds
+        //it is appropriate to draw multiple bonds
         var getSideBondV = function(atom, atom2, i) {
 
             var p1 = new $3Dmol.Vector3(atom.x, atom.y, atom.z);
